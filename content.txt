@@ -17,3 +17,12 @@ Gardens of Babylon
 Construction: Circa 600 BC
 Builders: Babylonians
 Location: Nineveh, Iraq
+
+
+
+    Typefaces: Merriweather (regular, italic)
+    Text sizes: 1.5rem, 1.8rem
+    Line-heights: 1.5
+    Margins: 1rem, 1.5rem
+    Paddings: 1rem, 1.5rem
+    Gaps: .75rem
