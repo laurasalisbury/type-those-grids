@@ -1,16 +1,33 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
   line-height: 1.5;
+  font-family: Merriweather, serif;
+  margin: 1rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+header {
+  margin: 1.5rem;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+figure {
+  margin: 0;
+}
+
 body {
   padding: 0;
-  margin: 0;/*mobile size grid*/
+  margin: 0;
+
+  /* mobile size grid */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -21,16 +38,13 @@ body {
 
 main {
   margin: 1rem;
+  grid-area:
 }
 
 .main-grid {
- list-style-type: none;
- padding: 0; display: grid;
- grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
- gap: 1em;
-}
-
-.main-grid li {
-  background-color: #fff;
-  padding: 1em;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
 }
